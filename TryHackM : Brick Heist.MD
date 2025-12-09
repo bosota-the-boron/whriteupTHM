@@ -91,54 +91,54 @@ Attempting to use htop failed, so systemd services were enumerated:
 systemctl list-units --type=service --state=running
 
 Result :
-apache@ip-10-80-144-162:/data/www/default$ systemctl list-units --type=service --state=running
-<systemctl list-units --type=service --state=running
-  UNIT                                           LOAD   ACTIVE SUB     DESCRIPTION                                                     
-  accounts-daemon.service                        loaded active running Accounts Service                                                
-  acpid.service                                  loaded active running ACPI event daemon                                               
-  atd.service                                    loaded active running Deferred execution scheduler                                    
-  avahi-daemon.service                           loaded active running Avahi mDNS/DNS-SD Stack                                         
-  badr.service                                   loaded active running Badr Service                                                    
-  cron.service                                   loaded active running Regular background program processing daemon                    
-  cups-browsed.service                           loaded active running Make remote CUPS printers available locally                     
-  cups.service                                   loaded active running CUPS Scheduler                                                  
-  dbus.service                                   loaded active running D-Bus System Message Bus                                        
-  getty@tty1.service                             loaded active running Getty on tty1                                                   
-  httpd.service                                  loaded active running LSB: starts Apache Web Server                                   
-  irqbalance.service                             loaded active running irqbalance daemon                                               
-  kerneloops.service                             loaded active running Tool to automatically collect and submit kernel crash signatures
-  lightdm.service                                loaded active running Light Display Manager                                           
-  ModemManager.service                           loaded active running Modem Manager                                                   
-  multipathd.service                             loaded active running Device-Mapper Multipath Device Controller                       
-  mysqld.service                                 loaded active running LSB: start and stop MySQL                                       
-  networkd-dispatcher.service                    loaded active running Dispatcher daemon for systemd-networkd                          
-  NetworkManager.service                         loaded active running Network Manager                                                 
-  polkit.service                                 loaded active running Authorization Manager                                           
-  rsyslog.service                                loaded active running System Logging Service                                          
-  rtkit-daemon.service                           loaded active running RealtimeKit Scheduling Policy Service                           
-  serial-getty@ttyS0.service                     loaded active running Serial Getty on ttyS0                                           
-  snap.amazon-ssm-agent.amazon-ssm-agent.service loaded active running Service for snap application amazon-ssm-agent.amazon-ssm-agent  
-  snapd.service                                  loaded active running Snap Daemon                                                     
-  ssh.service                                    loaded active running OpenBSD Secure Shell server                                     
-  switcheroo-control.service                     loaded active running Switcheroo Control Proxy service                                
-  systemd-journald.service                       loaded active running Journal Service                                                 
-  systemd-logind.service                         loaded active running Login Service                                                   
-  systemd-networkd.service                       loaded active running Network Service                                                 
-  systemd-resolved.service                       loaded active running Network Name Resolution                                         
-  systemd-timesyncd.service                      loaded active running Network Time Synchronization                                    
-  systemd-udevd.service                          loaded active running udev Kernel Device Manager                                      
-  ubuntu.service                                 loaded active running TRYHACK3M                                                       
-  udisks2.service                                loaded active running Disk Manager                                                    
-  unattended-upgrades.service                    loaded active running Unattended Upgrades Shutdown                                    
-  upower.service                                 loaded active running Daemon for power management                                     
-  user@1000.service                              loaded active running User Manager for UID 1000                                       
-  user@114.service                               loaded active running User Manager for UID 114                                        
-  whoopsie.service                               loaded active running crash report submission daemon                                  
-  wpa_supplicant.service                         loaded active running WPA supplicant                                                  
-
-LOAD   = Reflects whether the unit definition was properly loaded.
-ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
-SUB    = The low-level unit activation state, values depend on unit type.
+  apache@ip-10-80-144-162:/data/www/default$ systemctl list-units --type=service --state=running
+  <systemctl list-units --type=service --state=running
+    UNIT                                           LOAD   ACTIVE SUB     DESCRIPTION                                                     
+    accounts-daemon.service                        loaded active running Accounts Service                                                
+    acpid.service                                  loaded active running ACPI event daemon                                               
+    atd.service                                    loaded active running Deferred execution scheduler                                    
+    avahi-daemon.service                           loaded active running Avahi mDNS/DNS-SD Stack                                         
+    badr.service                                   loaded active running Badr Service                                                    
+    cron.service                                   loaded active running Regular background program processing daemon                    
+    cups-browsed.service                           loaded active running Make remote CUPS printers available locally                     
+    cups.service                                   loaded active running CUPS Scheduler                                                  
+    dbus.service                                   loaded active running D-Bus System Message Bus                                        
+    getty@tty1.service                             loaded active running Getty on tty1                                                   
+    httpd.service                                  loaded active running LSB: starts Apache Web Server                                   
+    irqbalance.service                             loaded active running irqbalance daemon                                               
+    kerneloops.service                             loaded active running Tool to automatically collect and submit kernel crash signatures
+    lightdm.service                                loaded active running Light Display Manager                                           
+    ModemManager.service                           loaded active running Modem Manager                                                   
+    multipathd.service                             loaded active running Device-Mapper Multipath Device Controller                       
+    mysqld.service                                 loaded active running LSB: start and stop MySQL                                       
+    networkd-dispatcher.service                    loaded active running Dispatcher daemon for systemd-networkd                          
+    NetworkManager.service                         loaded active running Network Manager                                                 
+    polkit.service                                 loaded active running Authorization Manager                                           
+    rsyslog.service                                loaded active running System Logging Service                                          
+    rtkit-daemon.service                           loaded active running RealtimeKit Scheduling Policy Service                           
+    serial-getty@ttyS0.service                     loaded active running Serial Getty on ttyS0                                           
+    snap.amazon-ssm-agent.amazon-ssm-agent.service loaded active running Service for snap application amazon-ssm-agent.amazon-ssm-agent  
+    snapd.service                                  loaded active running Snap Daemon                                                     
+    ssh.service                                    loaded active running OpenBSD Secure Shell server                                     
+    switcheroo-control.service                     loaded active running Switcheroo Control Proxy service                                
+    systemd-journald.service                       loaded active running Journal Service                                                 
+    systemd-logind.service                         loaded active running Login Service                                                   
+    systemd-networkd.service                       loaded active running Network Service                                                 
+    systemd-resolved.service                       loaded active running Network Name Resolution                                         
+    systemd-timesyncd.service                      loaded active running Network Time Synchronization                                    
+    systemd-udevd.service                          loaded active running udev Kernel Device Manager                                      
+    ubuntu.service                                 loaded active running TRYHACK3M                                                       
+    udisks2.service                                loaded active running Disk Manager                                                    
+    unattended-upgrades.service                    loaded active running Unattended Upgrades Shutdown                                    
+    upower.service                                 loaded active running Daemon for power management                                     
+    user@1000.service                              loaded active running User Manager for UID 1000                                       
+    user@114.service                               loaded active running User Manager for UID 114                                        
+    whoopsie.service                               loaded active running crash report submission daemon                                  
+    wpa_supplicant.service                         loaded active running WPA supplicant                                                  
+  
+  LOAD   = Reflects whether the unit definition was properly loaded.
+  ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+  SUB    = The low-level unit activation state, values depend on unit type.
 
 
 Among the normal services, one stood out:
