@@ -136,7 +136,7 @@ A file containing the first flag was located:
 
 Content:
 ```
-THM{fl46_650c844110baced87e1606453b93f22a}
+FLAGHERE
 ```
 
 ### 7.2 Suspicious systemd Service
